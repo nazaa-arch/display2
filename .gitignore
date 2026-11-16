@@ -3,13 +3,16 @@
 .taste-skill/
 shots/
 images (4).jpg
-# design-kit parts the page does not load
-assets/photos/
-assets/objects/
-assets/scenes/
-assets/icons/
-assets/layout/img/
-assets/starter.html
-assets/logo.jpg
+protect.js
+# hanya foto dan logo yang dipakai halaman
+assets/*
+!assets/foto/
+!assets/logo.png
 assets/foto/megengan.jpg
-assets/foto/tari.jpg
+assets/foto/prestasi-piala.jpg
+assets/foto/istighosah-malam.jpg
+assets/foto/teater.jpg
+assets/foto/pencak-silat.jpg
+assets/foto/pmr.jpg
+assets/foto/pramuka.jpg
+assets/foto/paskibra.jpg
