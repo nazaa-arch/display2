@@ -112,7 +112,7 @@ h3{font-size:1.25rem;font-weight:700}
 .kepsek-ph{position:absolute;inset:0;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:1rem;color:#fff}
 .kepsek-ph img{width:45%;opacity:.95;filter:drop-shadow(0 20px 30px rgba(0,0,0,.35))}
 .kepsek-ph span{font-size:.8rem;letter-spacing:.14em;text-transform:uppercase;font-weight:700;color:var(--navy);margin-top:2rem;position:relative}
-.quote-badge{position:absolute;right:-2rem;bottom:2.5rem;background:#fff;padding:1.1rem 1.4rem;border-radius:16px;box-shadow:var(--shadow);font-family:var(--serif);font-style:italic;color:var(--navy);font-size:1rem;border-left:4px solid var(--red)}
+.quote-badge{position:absolute;right:-2rem;bottom:2.5rem;background:#fff;padding:1.1rem 1.4rem;border-radius:16px;box-shadow:var(--shadow);font-family:var(--serif);font-style:italic;color:var(--navy);font-size:1rem}
 .sambutan-text h2{font-size:clamp(1.6rem,2.8vw,2.3rem);margin-bottom:1.5rem}
 .sambutan-text p{color:#3d4866;margin-bottom:1rem}
 .signature{margin-top:2rem;padding-top:1.5rem;border-top:1px solid var(--line)}
@@ -277,7 +277,7 @@ h3{font-size:1.25rem;font-weight:700}
 .to-top.show{opacity:1;pointer-events:auto;transform:none}
 .wa-float{bottom:1.4rem;background:#25d366;font-size:1.4rem}
 .wa-float:hover{transform:scale(1.08)}
-.toast{position:fixed;left:50%;bottom:2rem;translate:-50% 0;background:var(--navy);color:#fff;padding:.9rem 1.4rem;border-radius:14px;font-weight:600;font-size:.92rem;z-index:100;opacity:0;transform:translateY(20px);transition:.35s;pointer-events:none;border-left:4px solid var(--gold);max-width:90vw}
+.toast{position:fixed;left:50%;bottom:2rem;translate:-50% 0;background:var(--navy);color:#fff;padding:.9rem 1.4rem;border-radius:14px;font-weight:600;font-size:.92rem;z-index:100;opacity:0;transform:translateY(20px);transition:.35s;pointer-events:none;max-width:90vw;box-shadow:0 0 0 1px rgba(247,194,27,.5),0 18px 40px -12px rgba(0,0,0,.45)}
 .toast.show{opacity:1;transform:none}
 
 /* reveal */
