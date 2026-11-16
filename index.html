@@ -1,299 +1,466 @@
-<!doctype html>
-<html lang="id" data-type="service" data-radius="soft" data-buttons="tonal" data-motion>
+<!DOCTYPE html>
+<html lang="id">
 <head>
-<meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>SMA Wachid Hasyim 2: SMA Islam di Taman, Sidoarjo</title>
-<meta name="description" content="Sekolah menengah atas di bawah Yayasan Pendidikan dan Sosial Ma'arif sejak 1970, terakreditasi A. Pendaftaran murid baru 2027/2028 sudah dibuka.">
-<meta property="og:type" content="website">
-<meta property="og:title" content="SMA Wachid Hasyim 2: SMA Islam di Taman, Sidoarjo">
-<meta property="og:description" content="Terakreditasi A, berdiri sejak 1970. Pendaftaran murid baru 2027/2028 sudah dibuka.">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SMA Wachid Hasyim 2 Taman — Sekolah Islam Aswaja, Modern dan Profesional</title>
+<meta name="description" content="SMA Wachid Hasyim 2 Taman, Sidoarjo. Di bawah Yayasan Pendidikan dan Sosial Ma'arif sejak 1970, terakreditasi A. Pendaftaran SPMB 2027/2028 sudah dibuka.">
+<meta property="og:title" content="SMA Wachid Hasyim 2 Taman">
+<meta property="og:description" content="Terakreditasi A, berdiri sejak 1970. 259 siswa lolos PTN tahun 2025/2026. SPMB 2027/2028 sudah dibuka.">
 <meta property="og:image" content="share.jpg">
-<meta name="twitter:card" content="summary_large_image">
+<meta name="theme-color" content="#0a2a6b">
 <link rel="icon" href="favicon.png" type="image/png">
-<meta name="theme-color" content="#f5f3ee">
-<link rel="canonical" href="https://display2.steamcraft.online/">
-<meta name="site-kind" content="other">
-<meta name="page-type" content="service">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Instrument+Serif&family=Instrument+Sans:wdth,wght@75..100,400..600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="assets/system.css">
-<link rel="stylesheet" href="assets/ui/cards.css">
-<link rel="stylesheet" href="assets/motion/motion.css">
-<link rel="stylesheet" href="assets/layout/layout.css">
-<style>
-:root {
-  --p-bg: #f5f3ee; --p-surface: #e9e6de; --p-ink: #14203a; --p-muted: #5a6274;
-  --p-accent: #1a55b5; --p-accent-ink: #f5f3ee; --p-action: #1a55b5; --p-action-ink: #f5f3ee;
-  --p-inv-bg: #14203a; --p-inv-surface: #212d46; --p-inv-ink: #f5f3ee; --p-inv-muted: #979ca6;
-  --p-inv-accent: #f5f3ee; --p-inv-accent-ink: #14203a; --p-inv-action: #f5f3ee; --p-inv-action-ink: #14203a;
-  --font-display: "Instrument Serif", Georgia, serif;
-  --font-text: "Instrument Sans", system-ui, sans-serif;
-  --display-weight: 400;
-  --display-tracking: -0.012em;
-  --display-tracking-xl: -0.016em;
-  --ly-scale: 1.12;
-}
-</style>
-<script>document.documentElement.classList.add('m-enter');setTimeout(()=>document.documentElement.classList.add('m-enter-done'),700)</script>
-<script>document.documentElement.classList.add('mo-js');setTimeout(()=>document.documentElement.classList.add('mo-safe'),2500)</script>
-<link rel="modulepreload" href="assets/moments/moments.js">
-<link rel="modulepreload" href="assets/moments/lib.js">
-<link rel="modulepreload" href="assets/moments/pinned-chapters/moment.js">
-<link rel="modulepreload" href="assets/moments/picture-develops/moment.js">
-<style>
-  /* the school's own logo in the bar and the footer */
-  .nav__logo img { width: 30px; height: auto; display: block; }
-  .nav__logo { gap: var(--s-3); }
-  /* picture-develops: the profile's one photograph, as tall as the text beside it */
-  .develop { margin: 0; border-radius: var(--r-lg); overflow: hidden; height: var(--ly-fit, 600px); }
-  .develop > img { display: block; width: 100%; height: 100%; object-fit: cover; }
-  @media (max-width: 1023px) { .develop { height: auto; aspect-ratio: 4 / 3; margin-top: var(--s-7); } }
-  /* prestasi: three columns of one height */
-    @media (max-width: 1023px) { #prestasi .grid > .frame { height: auto; aspect-ratio: 4 / 5; } }
-  #spmb .spmb-photo { height: 240px; }
-  @media (max-width: 639px) {
-    #spmb .spmb-photo { height: auto; aspect-ratio: 4 / 3; }
-    #jadwal .frame { height: auto; aspect-ratio: 4 / 3; }
-    #prestasi .grid > .frame { aspect-ratio: 0.69; }
-  }
-  @media (max-width: 359px) { .nav__logo .nav__name { display: none; } }
-  /* berita: one photo ratio for the row */
-  #berita .panel { --p-h: 260px; }
-  @media (min-width: 1280px) { #berita .panel { --p-h: 360px; } }
-  @media (max-width: 639px) { #berita .panel { --p-h: 200px; } }
-  /* tablet: the two portraits side by side, the list under them, over two screens */
-  @media (min-width: 640px) and (max-width: 1023px) {
-    #prestasi .grid > .frame { grid-column: span 6; aspect-ratio: 3 / 2; }
-    #prestasi .grid > .rows { grid-column: 1 / -1; }
-  }
-</style>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,700;9..144,800&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-<!-- type: service (sekolah menengah atas swasta)
-     deal: hero photo, nav nav-centre, close close-photo, footer footer-columns, rhythm surface-pairs, buttons tonal,
-           mark: the school's own logo; palette from the school's logo (start.mjs brand), type instrument-serif
-     moments: picture-develops (#profil), pinned-chapters (#keseharian) -->
 
-<header class="nav nav--centre">
-  <div class="wrap nav__bar">
-    <a class="skip-link" href="#top">Langsung ke isi</a>
-    <a class="nav__logo" href="#top" aria-label="SMA Wachid Hasyim 2"><img src="assets/logo.png" alt="" width="30" height="36"><span class="nav__name">Wachid Hasyim 2</span></a>
-    <nav class="nav__links" aria-label="Utama">
-      <div class="nav__item"><a class="nav__link" href="#profil">Profil</a></div>
-      <div class="nav__item"><a class="nav__link" href="#keseharian">Keseharian</a></div>
-      <div class="nav__item"><a class="nav__link" href="#ekskul">Ekskul</a></div>
-      <div class="nav__item"><a class="nav__link" href="#prestasi">Prestasi</a></div>
-      <div class="nav__item"><a class="nav__link" href="#berita">Berita</a></div>
-    </nav>
-    <div class="nav__actions">
-      <a class="btn btn--primary" href="#spmb">Daftar SPMB</a>
+<!-- Ikon (pengganti emoji) -->
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <symbol id="i-pin" viewBox="0 0 24 24"><path d="M12 21s-7-6.2-7-11.5A7 7 0 0 1 19 9.5C19 14.8 12 21 12 21z"/><circle cx="12" cy="9.5" r="2.5"/></symbol>
+    <symbol id="i-mail" viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></symbol>
+    <symbol id="i-phone" viewBox="0 0 24 24"><path d="M5 4h4l2 5-2.5 1.5a11 11 0 0 0 5 5L15 13l5 2v4a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2z"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M21 12a8.5 8.5 0 0 1-12.6 7.4L3 21l1.6-5.2A8.5 8.5 0 1 1 21 12z"/><path d="M8.5 10.5h7M8.5 13.5h4.5"/></symbol>
+    <symbol id="i-book" viewBox="0 0 24 24"><path d="M4 5.5A2.5 2.5 0 0 1 6.5 3H20v15H6.5A2.5 2.5 0 0 0 4 20.5z"/><path d="M4 20.5A2.5 2.5 0 0 0 6.5 23H20v-5"/></symbol>
+    <symbol id="i-moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z"/></symbol>
+    <symbol id="i-target" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1.5"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3a14 14 0 0 1 0 18M12 3a14 14 0 0 0 0 18"/></symbol>
+    <symbol id="i-laptop" viewBox="0 0 24 24"><rect x="4" y="5" width="16" height="11" rx="1.5"/><path d="M2 19h20"/></symbol>
+    <symbol id="i-seed" viewBox="0 0 24 24"><path d="M12 21V11"/><path d="M12 11C12 6 8 4 4 4c0 5 3 7 8 7zM12 13c0-4 3-6 8-6 0 4-3 6-8 6z"/></symbol>
+    <symbol id="i-cap" viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5z"/><path d="M6 11v5c3 2.5 9 2.5 12 0v-5M22 9v6"/></symbol>
+    <symbol id="i-ball" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="m12 7 4 3-1.5 4.5h-5L8 10z"/></symbol>
+    <symbol id="i-shield" viewBox="0 0 24 24"><path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/></symbol>
+    <symbol id="i-music" viewBox="0 0 24 24"><path d="M9 18V5l11-2v13"/><circle cx="6.5" cy="18" r="2.5"/><circle cx="17.5" cy="16" r="2.5"/></symbol>
+    <symbol id="i-mask" viewBox="0 0 24 24"><path d="M4 5h16v6a8 8 0 0 1-16 0z"/><path d="M8.5 10h1M14.5 10h1M9 14.5c1.7 1.3 4.3 1.3 6 0"/></symbol>
+    <symbol id="i-cross" viewBox="0 0 24 24"><path d="M9 3h6v6h6v6h-6v6H9v-6H3V9h6z"/></symbol>
+    <symbol id="i-flag" viewBox="0 0 24 24"><path d="M5 21V4M5 4h12l-2 4 2 4H5"/></symbol>
+    <symbol id="i-tent" viewBox="0 0 24 24"><path d="M12 3 2 20h20zM12 3v17M9 20l3-6 3 6"/></symbol>
+    <symbol id="i-pen" viewBox="0 0 24 24"><path d="M4 20l4-1 11-11-3-3L5 16z"/><path d="M14 6l3 3"/></symbol>
+    <symbol id="i-news" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M7 8h10M7 12h10M7 16h6"/></symbol>
+    <symbol id="i-palette" viewBox="0 0 24 24"><path d="M12 3a9 9 0 0 0 0 18c1.5 0 2-1 2-2s-1-1.5-1-2.5 1-1.5 2-1.5h2a4 4 0 0 0 4-4c0-4.5-4-8-9-8z"/><circle cx="7.5" cy="11" r="1"/><circle cx="10" cy="7" r="1"/><circle cx="15" cy="7.5" r="1"/></symbol>
+    <symbol id="i-chef" viewBox="0 0 24 24"><path d="M7 14a4 4 0 0 1-1-7.8A5 5 0 0 1 16 5a4 4 0 0 1 1 9v6H7z"/><path d="M7 17h10"/></symbol>
+    <symbol id="i-needle" viewBox="0 0 24 24"><path d="M4 20 18 6"/><ellipse cx="19" cy="5" rx="1.5" ry="2.5" transform="rotate(45 19 5)"/><path d="M8 20c4 0 4-4 8-4"/></symbol>
+    <symbol id="i-fist" viewBox="0 0 24 24"><path d="M7 11V7a2 2 0 0 1 4 0v4M11 9V6a2 2 0 0 1 4 0v5M15 10V8a2 2 0 0 1 4 0v5a8 8 0 0 1-8 8 6 6 0 0 1-6-6v-3a2 2 0 0 1 4 0"/></symbol>
+    <symbol id="i-mic" viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></symbol>
+    <symbol id="i-gift" viewBox="0 0 24 24"><rect x="3" y="8" width="18" height="5" rx="1"/><path d="M5 13v8h14v-8M12 8v13M12 8c-2-4-6-4-6-1.5S12 8 12 8zM12 8c2-4 6-4 6-1.5S12 8 12 8z"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-up" viewBox="0 0 24 24"><path d="M12 19V5M6 11l6-6 6 6"/></symbol>
+    <symbol id="i-down" viewBox="0 0 24 24"><path d="M12 5v14M6 13l6 6 6-6"/></symbol>
+  </defs>
+</svg>
+
+<!-- Top bar -->
+<div class="topbar">
+  <div class="container topbar-in">
+    <div class="tb-left">
+      <span class="tb-ic"><svg class="ic"><use href="#i-pin"/></svg>Jl. Raya Ngelom 86, Taman, Sidoarjo</span>
+      <span class="tb-ic hide-sm"><svg class="ic"><use href="#i-mail"/></svg>Info@smawh2.sch.id</span>
     </div>
-    <button class="nav__toggle" type="button" aria-expanded="false" aria-label="Menu">
-      <svg width="18" height="18" viewBox="0 0 18 18" aria-hidden="true"><path d="M2 5h14M2 13h14" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></svg>
-    </button>
+    <div class="tb-right">
+      <span class="hide-sm">Senin – Jumat 07.00 – 14.00 · Sabtu 08.00 – 12.00</span>
+      <a href="#spmb" class="tb-pill">SPMB 2027/2028 Dibuka</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="header" id="header">
+  <div class="container header-in">
+    <a href="#beranda" class="brand">
+      <img src="assets/logo.png" alt="Logo SMA Wachid Hasyim 2 Taman">
+      <div>
+        <strong>SMA Wachid Hasyim 2</strong>
+        <small>Taman · Sidoarjo</small>
+      </div>
+    </a>
+    <nav class="nav" id="nav">
+      <a href="#beranda" class="active">Beranda</a>
+      <a href="#profil">Profil</a>
+      <a href="#program">Program</a>
+      <a href="#ekskul">Ekskul</a>
+      <a href="#prestasi">Prestasi</a>
+      <a href="#berita">Berita</a>
+      <a href="#galeri">Galeri</a>
+      <a href="#kontak">Kontak</a>
+      <a href="#spmb" class="btn btn-gold nav-cta">Daftar Sekarang</a>
+    </nav>
+    <button class="burger" id="burger" aria-label="Menu"><span></span><span></span><span></span></button>
   </div>
 </header>
 
-<main id="top">
-  <section class="hero hero--photo" data-enter data-calm="left" aria-labelledby="hero-h">
-    <img class="hero__bg" src="assets/foto/gedung-halaman.jpg" alt="Gedung tiga lantai SMA Wachid Hasyim 2 dan halamannya yang dipenuhi siswa" style="--ly-pos: 70% 40%; --ly-pos-phone: 72% 50%" fetchpriority="high" data-source="client" data-subject="gedung sekolah">
-    <div class="wrap"><div class="hero-text">
-      <div class="hero__text">
-        <h1 id="hero-h">SMA Islam di Taman, Sidoarjo</h1>
-        <p class="hero__lead">Sejak 1970 di Jalan Raya Ngelom, terakreditasi A. Tahun 2026, 82 siswa kami diterima di PTN.</p>
-        <div class="btn-row"><a class="btn btn--primary" href="#spmb">Daftar SPMB<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg></a><a class="btn btn--secondary" href="#keseharian">Lihat keseharian</a></div>
+<!-- Hero -->
+<section class="hero" id="beranda">
+  <div class="hero-bg"><img src="assets/foto/gedung-halaman.jpg" alt=""></div>
+  <div class="hero-overlay"></div>
+  <div class="container hero-in">
+    <div class="hero-text reveal">
+      <span class="eyebrow light">Ayo Sekolah di SMA Wachid Hasyim 2 Taman</span>
+      <h1>Sekolah Islam Aswaja,<br><em>Modern dan Profesional.</em></h1>
+      <p>Sekolah akan membantu kamu berkuliah di universitas impian. Tahun 2025/2026, 259 siswa SMA Wachid Hasyim 2 lolos ke 21 PTN, di antaranya UGM, ITS, UNAIR, UNESA dan UPN.</p>
+      <div class="hero-actions">
+        <a href="#spmb" class="btn btn-gold btn-lg">Daftar SPMB 2027/2028 <svg class="ic"><use href="#i-arrow"/></svg></a>
+        <a href="#profil" class="btn btn-ghost btn-lg">Kenali Sekolah Kami</a>
       </div>
-    </div></div>
-  </section>
-
-  <section class="section" id="profil" aria-labelledby="profil-h">
-    <div class="wrap grid grid--top">
-      <div class="span-6">
-        <div class="section-head">
-          <h2 id="profil-h">Sekolah Ma'arif di Ngelom sejak 1970</h2>
-          <p>Visinya menjadi sekolah Islam berhaluan Ahlussunnah wal Jama'ah yang modern dan profesional, dengan kurikulum nasional.</p>
-        </div>
-        <ul class="rows">
-          <li><span class="rows__name">Yayasan</span><span class="rows__value">Pendidikan dan Sosial Ma'arif</span></li>
-          <li><span class="rows__name">Akreditasi</span><span class="rows__value">A</span></li>
-          <li><span class="rows__name">Kepala sekolah</span><span class="rows__value">Ummi Nahdliyah, M.Pd.I.</span></li>
-          <li><span class="rows__name">Gedung</span><span class="rows__value">Tiga lantai, kelas intensif ber-AC</span></li>
-          <li><span class="rows__name">Laboratorium</span><span class="rows__value">Fisika, kimia, biologi, komputer</span></li>
-          <li><span class="rows__name">Program bahasa</span><span class="rows__value">English, Japanese dan Arabic Day</span></li>
-        </ul>
-      </div>
-      <figure class="develop span-6 start-7" data-moment="picture-develops"><img src="assets/foto/upacara.jpg" alt="Ratusan siswa berbaris dalam upacara di halaman sekolah" width="1400" height="934" loading="lazy" data-source="client" data-subject="upacara"></figure>
-    </div>
-  </section>
-
-  <section class="section" id="keseharian" style="--h: 2" data-moment="pinned-chapters" aria-labelledby="keseharian-h">
-    <div class="wrap mo-pc__grid">
-      <div class="mo-pc__text">
-        <h2 id="keseharian-h">Keseharian siswa Wachid Hasyim 2</h2>
-        <ol class="mo-pc__steps">
-          <li class="mo-pc__step">
-            <h3>Sholat dhuha dan istighosah bersama</h3>
-            <p>Pelajaran dibuka dan ditutup dengan doa. Siswa sholat dhuha berjamaah, istighosah bersama, dan mengaji tiap akhir bulan.</p>
-            <figure class="mo-pc__visual"><img src="assets/foto/istighosah-malam.jpg" alt="Siswa duduk bersaf di halaman sekolah pada malam istighosah" width="763" height="429" data-source="client" data-subject="istighosah"></figure>
-          </li>
-          <li class="mo-pc__step">
-            <h3>Kelas intensif dan lab komputer</h3>
-            <p>Try out rutin, kelas intensif di lantai tiga, dan pembelajaran berbasis IT untuk persiapan masuk perguruan tinggi.</p>
-            <figure class="mo-pc__visual"><img src="assets/foto/lab-komputer.jpg" alt="Siswi belajar di laboratorium komputer" width="1400" height="1050" data-source="client" data-subject="lab komputer"></figure>
-          </li>
-          <li class="mo-pc__step">
-            <h3>Class meet, outdoor learning dan pondok Ramadhan</h3>
-            <p>Di luar kelas ada lomba antarkelas, belajar di sekolah hutan wakaf, karnaval Muharram dan pondok Ramadhan.</p>
-            <figure class="mo-pc__visual"><img src="assets/foto/class-meet.jpg" alt="Siswa berseragam biru bertanding tarik tambang saat class meet" width="1400" height="934" data-source="client" data-subject="class meet"></figure>
-          </li>
-        </ol>
-      </div>
-      <div class="mo-pc__visuals frame"></div>
-    </div>
-  </section>
-
-  <section class="section ground-surface" id="ekskul" style="--hm: 2" aria-labelledby="ekskul-h">
-    <div class="wrap">
-      <div class="section-head"><h2 id="ekskul-h">19 ekstrakurikuler pilihan siswa</h2><p>Juga sepak bola, basket, voli, banjari, karate, band, paduan suara, qiro'ah, PEC, jurnalistik, mading, desain grafis, tata boga dan tata busana.</p></div>
-      <div class="grid grid--top fill" data-peek>
-        <ul class="rows span-5">
-          <li data-peek-to="teater" tabindex="0"><span class="rows__name">Teater</span><p>Seratus siswa memainkan monolog pada upacara 17 Agustus 2025.</p></li>
-          <li data-peek-to="silat" tabindex="0"><span class="rows__name">Pencak silat</span><p>Latihan rutin dan kejuaraan antarpelajar se-Jawa Timur.</p></li>
-          <li data-peek-to="pmr" tabindex="0"><span class="rows__name">PMR</span><p>Dua siswa mewakili Sidoarjo di Jumbara PMR Jawa Timur 2025.</p></li>
-          <li data-peek-to="pramuka" tabindex="0"><span class="rows__name">Pramuka</span><p>Perkemahan, latihan baris dan kegiatan bakti siswa.</p></li>
-          <li data-peek-to="paskibra" tabindex="0"><span class="rows__name">Paskibra</span><p>Pengibar bendera untuk upacara sekolah dan hari besar.</p></li>
-        </ul>
-        <div class="frame frame--photo frame--fill span-6 start-7">
-          <img class="frame__img" data-peek-for="teater" src="assets/foto/teater.jpg" alt="Siswa memainkan drama monolog kemerdekaan di halaman sekolah" data-source="client" data-subject="teater">
-          <img class="frame__img" data-peek-for="silat" src="assets/foto/pencak-silat.jpg" alt="Atlet pencak silat sekolah memegang piala kejuaraan" data-source="client" data-subject="pencak silat" hidden>
-          <img class="frame__img" data-peek-for="pmr" src="assets/foto/pmr.jpg" alt="Dua siswi berseragam PMR saat pelepasan peserta Jumbara" data-source="client" data-subject="PMR" hidden>
-          <img class="frame__img" data-peek-for="pramuka" src="assets/foto/pramuka.jpg" alt="Anggota pramuka duduk melingkar membaca bersama" data-source="client" data-subject="pramuka" hidden>
-          <img class="frame__img" data-peek-for="paskibra" src="assets/foto/paskibra.jpg" alt="Pasukan pengibar bendera dalam upacara di halaman sekolah" data-source="client" data-subject="paskibra" hidden>
-        </div>
+      <div class="hero-badges">
+        <div><b>Akreditasi</b><span>A</span></div>
+        <div><b>Berdiri</b><span>Tahun 1970</span></div>
+        <div><b>Yayasan</b><span>Pendidikan dan Sosial Ma'arif</span></div>
       </div>
     </div>
-  </section>
-
-  <section class="section ground-surface" id="prestasi" style="--hm: 2" aria-labelledby="prestasi-h">
-    <div class="wrap">
-      <div class="section-head"><h2 id="prestasi-h">82 siswa diterima di PTN pada 2026</h2><p>Sebanyak 68 siswa lolos jalur SNBP dan 14 siswa lebih dulu diterima di Poltekkes Kemenkes Surabaya.</p></div>
-      <div class="grid grid--top">
-        <div class="frame frame--photo fit-screen span-4"><img class="frame__img" src="assets/foto/parlemen-remaja.jpg" alt="Thariqh Ramadhani berselempang di gedung DPR RI" loading="lazy" data-source="client" data-subject="parlemen remaja"></div>
-        <div class="frame frame--photo fit-screen span-4"><img class="frame__img" src="assets/foto/penghargaan.jpg" alt="Siswi kelas XII menerima piala dan piagam prestasi" style="object-position: 30% 50%" loading="lazy" data-source="client" data-subject="penghargaan"></div>
-        <ul class="rows span-4">
-          <li><span class="rows__name">Parlemen Remaja DPR RI 2026</span><p>Thariqh Ramadhani, kelas XII-F1, siswa pertama sekolah yang lolos.</p></li>
-          <li><span class="rows__name">Jumbara PMR X Jawa Timur</span><p>Dua siswa mewakili PMR Wira Kabupaten Sidoarjo, 2025.</p></li>
-          <li><span class="rows__name">Award prestasi kelas XII</span><p>Diberikan di muwadda'ah 477 lulusan, Mei 2026.</p></li>
-        </ul>
+    <div class="hero-card reveal d2">
+      <div class="hc-head">
+        <img src="assets/logo.png" alt="">
+        <div><b>Jadwal SPMB 2027/2028</b><small>Update 2 November 2026</small></div>
       </div>
+      <ul class="agenda">
+        <li><div class="date"><b>01</b><span>Sep</span></div><div><strong>Gelombang Inden</strong><small>1 Sep – 31 Okt 2026 · bebas dana pembangunan</small></div></li>
+        <li><div class="date"><b>01</b><span>Nov</span></div><div><strong>Gelombang I</strong><small>1 November – 31 Desember 2026</small></div></li>
+        <li><div class="date"><b>02</b><span>Jan</span></div><div><strong>Gelombang II</strong><small>2 Januari – 31 Maret 2027</small></div></li>
+        <li><div class="date"><b>01</b><span>Apr</span></div><div><strong>Gelombang III</strong><small>Mulai 1 April 2027 hingga kuota terpenuhi</small></div></li>
+      </ul>
     </div>
-  </section>
+  </div>
+  <a href="#stats" class="scroll-hint" aria-label="Gulir"><svg class="ic"><use href="#i-down"/></svg></a>
+</section>
 
-  <section class="section" id="berita" aria-labelledby="berita-h">
-    <div class="wrap">
-      <div class="section-head"><h2 id="berita-h">Berita sekolah terbaru</h2><p>Ditulis oleh tim sekolah dari kegiatan siswa sepanjang tahun ajaran.</p></div>
-      <div class="grid">
-        <a class="card card--row card--open span-4" href="https://smawh2.sch.id/2026/05/muwaddaah-akbar-kelas-xii-dan-award-prestasi-siswa/">
-          <p class="t-label muted">8 Mei 2026</p>
-          <h3>Muwadda'ah akbar kelas XII</h3>
-          <div class="panel"><img class="frame__img" src="assets/foto/muwaddaah.jpg" alt="Lulusan kelas XII berdiri di panggung muwadda'ah" loading="lazy" data-source="client" data-subject="muwaddaah"></div>
-        </a>
-        <a class="card card--row card--open span-4" href="https://smawh2.sch.id/2026/05/prosesi-siraman-warnai-rangkaian-kelulusan-kelas-xii/">
-          <p class="t-label muted">4 Mei 2026</p>
-          <h3>Prosesi siraman kelulusan</h3>
-          <div class="panel"><img class="frame__img" src="assets/foto/siraman.jpg" alt="Orang tua menyiram air kepada lulusan dalam prosesi siraman" loading="lazy" data-source="client" data-subject="siraman"></div>
-        </a>
-        <a class="card card--row card--open span-4" href="https://smawh2.sch.id/2026/01/sufi-2026-menjelajah-kampus-bersama-alumni-sma-wachid-hasyim-2-taman/">
-          <p class="t-label muted">8 Januari 2026</p>
-          <h3>Pameran kampus SUFI 2026</h3>
-          <div class="panel"><img class="frame__img" src="assets/foto/sufi.jpg" alt="Siswa mengunjungi stan kampus di halaman sekolah" loading="lazy" data-source="client" data-subject="pameran kampus"></div>
-        </a>
-      </div>
-    </div>
-  </section>
+<!-- Ticker -->
+<div class="ticker">
+  <div class="ticker-label">Info Terkini</div>
+  <div class="ticker-track"><div class="ticker-move">
+    <span>Thariqh Ramadhani (XII-F1) terpilih sebagai anggota Parlemen Remaja DPR RI 2026</span>
+    <span>82 siswa diterima di PTN lewat SNBP dan Poltekkes Kemenkes Surabaya tahun 2026</span>
+    <span>SPMB 2027/2028 Gelombang I: 1 November – 31 Desember 2026</span>
+    <span>Beasiswa untuk siswa berprestasi akademik, non-akademik dan hafal Al-Qur'an</span>
+    <span>Diterima di sekolah negeri, uang daftar ulang dikembalikan</span>
+    <span>Thariqh Ramadhani (XII-F1) terpilih sebagai anggota Parlemen Remaja DPR RI 2026</span>
+    <span>82 siswa diterima di PTN lewat SNBP dan Poltekkes Kemenkes Surabaya tahun 2026</span>
+    <span>SPMB 2027/2028 Gelombang I: 1 November – 31 Desember 2026</span>
+    <span>Beasiswa untuk siswa berprestasi akademik, non-akademik dan hafal Al-Qur'an</span>
+    <span>Diterima di sekolah negeri, uang daftar ulang dikembalikan</span>
+  </div></div>
+</div>
 
-  <section class="section" id="jadwal" aria-labelledby="jadwal-h">
-    <div class="wrap">
-      <div class="section-head"><h2 id="jadwal-h">SPMB 2027/2028 dalam empat gelombang</h2><p>Formulir Rp250.000. Diterima di sekolah negeri, uang daftar ulang dikembalikan paling lambat 3 hari setelah pengumuman.</p></div>
-      <div class="grid grid--top fill">
-        <ul class="rows span-6">
-          <li><span class="rows__name">Gelombang inden</span><span class="rows__value">1 Sep – 31 Okt 2026</span></li>
-          <li><span class="rows__name">Gelombang I</span><span class="rows__value">1 Nov – 31 Des 2026</span></li>
-          <li><span class="rows__name">Gelombang II</span><span class="rows__value">2 Jan – 31 Mar 2027</span></li>
-          <li><span class="rows__name">Gelombang III</span><span class="rows__value">Mulai 1 Apr 2027</span></li>
-        </ul>
-        <div class="frame frame--photo frame--fill span-6 start-7"><img class="frame__img" src="assets/foto/prestasi-piala.jpg" alt="Siswa berprestasi berfoto bersama piala di depan gedung sekolah" loading="lazy" data-source="client" data-subject="siswa berprestasi"></div>
-      </div>
-    </div>
-  </section>
+<!-- Stats -->
+<section class="stats" id="stats">
+  <div class="container stats-grid">
+    <div class="stat reveal"><b data-count="259">0</b><span>Siswa Lolos PTN 2025/2026</span></div>
+    <div class="stat reveal d1"><b data-count="256">0</b><span>Siswa Berprestasi 2025/2026</span></div>
+    <div class="stat reveal d2"><b data-count="477">0</b><span>Lulusan Kelas XII 2026</span></div>
+    <div class="stat reveal d3"><b data-count="19">0</b><span>Ekstrakurikuler</span></div>
+  </div>
+</section>
 
-  <section class="section" id="spmb" style="--hm: 2" aria-labelledby="spmb-h">
-    <div class="wrap">
-      <div class="section-head"><h2 id="spmb-h">Formulir pendaftaran SPMB</h2><p>Panitia menghubungi orang tua lewat WhatsApp untuk melengkapi berkas. Kantor buka Senin–Jumat 07.00–14.00, Sabtu 08.00–12.00.</p></div>
-      <div class="grid grid--top">
-        <div class="span-6 stack-4">
-          <ul class="rows">
-            <li><span class="rows__name">Syarat</span><span class="rows__value">Lulus ujian sekolah</span></li>
-            <li><span class="rows__name">Berkas</span><span class="rows__value">Fotokopi ijazah atau SKL</span></li>
-            <li><span class="rows__name">Pas foto</span><span class="rows__value">3 x 4, empat lembar</span></li>
-            <li><span class="rows__name">Beasiswa</span><span class="rows__value">Prestasi dan hafal Al-Qur'an</span></li>
-          </ul>
-          <p><a class="link" href="https://wa.me/6285646116373">WhatsApp Pak Agung</a> &nbsp; <a class="link" href="https://wa.me/6281331766331">WhatsApp Pak Fauzi</a></p>
-          <div class="frame frame--photo spmb-photo"><img class="frame__img" src="assets/foto/aula.jpg" alt="Siswa baru duduk di aula sekolah saat kegiatan pengenalan" loading="lazy" data-source="client" data-subject="aula"></div>
-        </div>
-        <form class="form span-6" action="mailto:spmb@smawh2.example" method="post" enctype="text/plain" data-endpoint="" data-sent="Pendaftaran SPMB terkirim. Panitia menghubungi Anda dalam dua hari kerja." novalidate>
-          <div class="field"><label for="f-name">Nama calon siswa</label>
-            <input id="f-name" name="nama" type="text" autocomplete="name" required aria-describedby="f-name-err">
-            <p class="field__error" id="f-name-err" hidden>Tulis nama lengkap calon siswa.</p></div>
-          <div class="field"><label for="f-school">Asal SMP atau MTs</label>
-            <input id="f-school" name="asal_sekolah" type="text" autocomplete="off" required aria-describedby="f-school-err">
-            <p class="field__error" id="f-school-err" hidden>Tulis nama sekolah asal.</p></div>
-          <div class="field"><label for="f-wa">WhatsApp orang tua</label>
-            <input id="f-wa" name="whatsapp" type="tel" autocomplete="tel" inputmode="tel" required aria-describedby="f-wa-err">
-            <p class="field__error" id="f-wa-err" hidden>Tulis nomor WhatsApp yang aktif.</p></div>
-          <div class="btn-row"><button class="btn btn--primary" type="submit">Daftar SPMB</button></div>
-          <p class="form__status" role="status" data-form-status></p>
-          <p class="t-small muted">Panitia menghubungi dalam dua hari kerja.</p>
-        </form>
+<!-- Sekilas -->
+<section class="section sambutan">
+  <div class="container sambutan-grid">
+    <div class="sambutan-photo reveal">
+      <div class="photo-frame">
+        <img src="assets/foto/penghargaan.jpg" alt="Siswi kelas XII menerima piala dan piagam prestasi" class="frame-img">
       </div>
+      <div class="quote-badge">“Menjadi sekolah Islam berhaluan<br>Ahlussunnah wal Jama'ah.”</div>
     </div>
-  </section>
-</main>
-
-<footer class="footer closing" id="contact" aria-labelledby="close-h">
-  <div class="wrap">
-    <div class="closing__cta close--photo">
-      <div class="section-head--split">
-        <div><h2 id="close-h">Daftar SPMB 2027/2028</h2><p class="t-lead">Gelombang I dibuka 1 November sampai 31 Desember 2026.</p></div>
-        <a class="btn btn--primary" href="#spmb">Daftar SPMB<svg class="m-arrow" viewBox="0 0 12 12" aria-hidden="true"><path class="m-arrow__stem" d="M1 6h8"/><path class="m-arrow__head" d="M4.5 2.5 8 6l-3.5 3.5"/></svg></a>
-      </div>
-      <div class="close__media"><img src="assets/foto/halaman-siswa.jpg" alt="Siswa berkumpul di halaman antara gedung-gedung sekolah" loading="lazy" data-source="client" data-subject="halaman sekolah"></div>
-    </div>
-    <div class="closing__links">
-      <div class="grid">
-        <div class="span-4 stack-4">
-          <a class="nav__logo" href="#top"><img src="assets/logo.png" alt="" width="30" height="36">Wachid Hasyim 2</a>
-          <p class="footer__lede">Jalan Raya Ngelom, Taman, Sidoarjo</p>
-        </div>
-        <div class="span-2 footer__col"><h3>Sekolah</h3><ul><li><a href="#profil">Profil</a></li><li><a href="#keseharian">Keseharian</a></li></ul></div>
-        <div class="span-2 footer__col"><h3>Siswa</h3><ul><li><a href="#ekskul">Ekskul</a></li><li><a href="#prestasi">Prestasi</a></li></ul></div>
-        <div class="span-2 footer__col"><h3>Kabar</h3><ul><li><a href="#berita">Berita</a></li><li><a href="https://smawh2.sch.id/">Situs lama</a></li></ul></div>
-        <div class="span-2 footer__col"><h3>Kontak</h3><ul><li><a href="tel:+62317881734">(031) 7881734</a></li><li><a href="#spmb">Pendaftaran</a></li></ul></div>
-      </div>
-      <div class="footer__legal">
-        <span>&copy; 2026 SMA Wachid Hasyim 2 Taman</span>
-        <div class="socials"></div>
-        <span class="credits">Foto: dokumentasi SMA Wachid Hasyim 2 Taman</span>
+    <div class="sambutan-text reveal d1">
+      <span class="eyebrow">Sekilas SMA Wachid Hasyim 2</span>
+      <h2>Sekolah umum dengan nilai dan amaliah Ahlussunnah wal Jama'ah.</h2>
+      <p>SMA Wachid Hasyim 2 Taman adalah sekolah menengah umum yang dikelola oleh Yayasan Pendidikan dan Sosial Ma'arif (YPM), yayasan yang berorientasi pada nilai dan amaliah Ahlussunnah wal Jama'ah (NU).</p>
+      <p>Sekolah menggunakan kurikulum pendidikan nasional, lalu menambahkan bidang studi agama Islam seperti Al-Qur'an, Aqidah, Fiqih, SKI dan Aswaja tanpa mengurangi target kurikulum nasional.</p>
+      <p>Itulah nilai lebih SMA Wachid Hasyim 2 dibanding sekolah umum lainnya: siswa siap bersaing secara akademik sekaligus berakhlakul karimah.</p>
+      <div class="signature">
+        <b>Ummi Nahdliyah, S.Pd.I., M.Pd.I.</b>
+        <span>Kepala SMA Wachid Hasyim 2 Taman</span>
       </div>
     </div>
   </div>
+</section>
+
+<!-- Profil -->
+<section class="section profil" id="profil">
+  <div class="container">
+    <div class="section-head reveal">
+      <span class="eyebrow">Profil Sekolah</span>
+      <h2>Tumbuh dari yayasan Ma'arif Sepanjang,<br>mendidik sejak tahun 1970.</h2>
+    </div>
+    <div class="profil-grid">
+      <div class="profil-img reveal">
+        <img src="assets/foto/upacara.jpg" alt="Siswa berbaris dalam upacara di halaman sekolah">
+        <div class="since"><b>Sejak</b><span>1970</span></div>
+      </div>
+      <div class="profil-tabs reveal d1">
+        <div class="tabs" role="tablist">
+          <button class="tab active" data-tab="visi">Visi & Misi</button>
+          <button class="tab" data-tab="sejarah">Sejarah</button>
+          <button class="tab" data-tab="identitas">Identitas</button>
+        </div>
+        <div class="tab-panel active" id="tab-visi">
+          <div class="visi-box">
+            <small>VISI</small>
+            <p>“Menjadi sekolah Islam yang berhaluan Ahlussunnah wal Jama'ah, modern dan profesional.”</p>
+          </div>
+          <ul class="misi">
+            <li><i>01</i>Membentuk pribadi berakhlakul karimah, berjiwa sosial dan beramaliyah aswaja berbasis keunggulan lokal.</li>
+            <li><i>02</i>Menciptakan lingkungan sekolah yang bersih, aman, nyaman dan menyenangkan.</li>
+            <li><i>03</i>Meningkatkan pembelajaran berbasis IT agar dapat bersaing secara global.</li>
+            <li><i>04</i>Melaksanakan program English Day, Japanese Day dan Arabic Day.</li>
+            <li><i>05</i>Menyiapkan peserta didik melanjutkan pendidikan sesuai minat, bakat dan kreativitas di bidang akademik dan non-akademik.</li>
+            <li><i>06</i>Menyiapkan peserta didik yang terampil dan kreatif dalam berwirausaha.</li>
+          </ul>
+        </div>
+        <div class="tab-panel" id="tab-sejarah">
+          <p>Yayasan Pendidikan dan Sosial Ma'arif Sepanjang berdiri tahun 1964, digagas KH. M. Hasyim Latief bersama para sesepuh NU Sepanjang dan Sidoarjo untuk mengangkat kualitas SDM masyarakat Nahdliyin.</p>
+          <p>Saat mendirikan SMA, YPM bergabung dengan Yayasan Wachid Hasyim Surabaya. Sebagai penghormatan atas jasa baik itu, nama Wachid Hasyim diabadikan sebagai nama sekolah.</p>
+          <div class="timeline">
+            <div><b>1964</b><span>Yayasan Pendidikan dan Sosial Ma'arif Sepanjang berdiri</span></div>
+            <div><b>1970</b><span>SMA resmi berdiri sebagai filial SMA Wachid Hasyim Surabaya</span></div>
+            <div><b>1976</b><span>Pengelolaan diserahkan penuh kepada YPM dengan nama Wachid Hasyim 2</span></div>
+            <div><b>1977</b><span>Berkembang pesat dan mendapat status disamakan</span></div>
+          </div>
+        </div>
+        <div class="tab-panel" id="tab-identitas">
+          <table class="identitas">
+            <tr><td>Nama Sekolah</td><td>SMA Wachid Hasyim 2 Taman</td></tr>
+            <tr><td>Alamat</td><td>Jl. Raya Ngelom 86, Taman, Sidoarjo 61257</td></tr>
+            <tr><td>Telepon</td><td>(031) 7881734</td></tr>
+            <tr><td>Nomor Sekolah</td><td>E.03144001</td></tr>
+            <tr><td>Izin Pendirian</td><td>No. 03885/I04.7.4/97</td></tr>
+            <tr><td>Status</td><td>Terakreditasi A</td></tr>
+            <tr><td>Yayasan</td><td>Yayasan Pendidikan dan Sosial Ma'arif</td></tr>
+            <tr><td>Ketua Yayasan</td><td>Ir. H. Ahmad Makki, M.T.</td></tr>
+            <tr><td>Kepala Sekolah</td><td>Ummi Nahdliyah, S.Pd.I., M.Pd.I.</td></tr>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Program -->
+<section class="section program" id="program">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow light">Program Unggulan</span>
+      <h2>Lebih dari sekadar belajar di kelas.</h2>
+      <p>Program akademik, keagamaan dan pengembangan diri yang berjalan setiap tahun ajaran.</p>
+    </div>
+    <div class="program-grid">
+      <article class="pcard reveal"><div class="picon"><svg class="ic"><use href="#i-target"/></svg></div><h3>Kelas Intensif & Persiapan PTN</h3><p>Kelas ber-AC dengan multimedia di lantai tiga, pelajaran tambahan, try out rutin dan kerja sama dengan lembaga bimbingan belajar.</p></article>
+      <article class="pcard reveal d1"><div class="picon"><svg class="ic"><use href="#i-moon"/></svg></div><h3>Pembiasaan Keagamaan</h3><p>Doa awal dan akhir pelajaran, Juz Amma dan Yasin, sholat dhuha dan istighosah bersama, serta pengajian rutin setiap akhir bulan.</p></article>
+      <article class="pcard reveal d2"><div class="picon"><svg class="ic"><use href="#i-globe"/></svg></div><h3>English, Japanese & Arabic Day</h3><p>Hari berbahasa asing untuk melatih percakapan sehari-hari, didukung guru Bahasa Inggris, Jepang dan Arab.</p></article>
+      <article class="pcard reveal"><div class="picon"><svg class="ic"><use href="#i-laptop"/></svg></div><h3>Pembelajaran Berbasis IT</h3><p>Laboratorium komputer dan multimedia, laptop dan proyektor untuk pembelajaran ICT di kelas.</p></article>
+      <article class="pcard reveal d1"><div class="picon"><svg class="ic"><use href="#i-seed"/></svg></div><h3>IBC untuk Kelas X</h3><p>Introduction to Basic Competencies selama sekitar tiga bulan: storytelling, BTQ, pencak silat dan pembentukan karakter.</p></article>
+      <article class="pcard reveal d2"><div class="picon"><svg class="ic"><use href="#i-cap"/></svg></div><h3>SUFI University Fair</h3><p>Pameran kampus yang digagas alumni yang kini kuliah di berbagai perguruan tinggi ternama, digelar di halaman sekolah.</p></article>
+    </div>
+  </div>
+</section>
+
+<!-- Ekskul -->
+<section class="section ekskul" id="ekskul">
+  <div class="container">
+    <div class="section-head reveal split">
+      <div>
+        <span class="eyebrow">Ekstrakurikuler</span>
+        <h2>19 pilihan untuk menyalurkan bakatmu.</h2>
+      </div>
+      <div class="filters" id="filters">
+        <button class="chip active" data-f="all">Semua</button>
+        <button class="chip" data-f="religi">Religi</button>
+        <button class="chip" data-f="olahraga">Olahraga</button>
+        <button class="chip" data-f="seni">Seni</button>
+        <button class="chip" data-f="organisasi">Organisasi</button>
+        <button class="chip" data-f="terampil">Keterampilan</button>
+      </div>
+    </div>
+    <div class="ekskul-grid" id="ekskulGrid">
+      <div class="ek" data-c="religi"><span><svg class="ic"><use href="#i-mic"/></svg></span><div><b>Banjari</b><small>Religi</small></div></div>
+      <div class="ek" data-c="religi"><span><svg class="ic"><use href="#i-book"/></svg></span><div><b>Qiro'ah</b><small>Seni Baca Al-Qur'an</small></div></div>
+      <div class="ek" data-c="olahraga"><span><svg class="ic"><use href="#i-ball"/></svg></span><div><b>Sepak Bola</b><small>Olahraga</small></div></div>
+      <div class="ek" data-c="olahraga"><span><svg class="ic"><use href="#i-ball"/></svg></span><div><b>Bola Basket</b><small>Olahraga</small></div></div>
+      <div class="ek" data-c="olahraga"><span><svg class="ic"><use href="#i-ball"/></svg></span><div><b>Bola Voli</b><small>Olahraga</small></div></div>
+      <div class="ek" data-c="olahraga"><span><svg class="ic"><use href="#i-fist"/></svg></span><div><b>Karate</b><small>Olahraga</small></div></div>
+      <div class="ek" data-c="olahraga"><span><svg class="ic"><use href="#i-shield"/></svg></span><div><b>Pencak Silat</b><small>Olahraga</small></div></div>
+      <div class="ek" data-c="seni"><span><svg class="ic"><use href="#i-music"/></svg></span><div><b>Musik (Band)</b><small>Seni</small></div></div>
+      <div class="ek" data-c="seni"><span><svg class="ic"><use href="#i-mic"/></svg></span><div><b>Paduan Suara</b><small>Seni</small></div></div>
+      <div class="ek" data-c="seni"><span><svg class="ic"><use href="#i-mask"/></svg></span><div><b>Teater</b><small>Seni</small></div></div>
+      <div class="ek" data-c="organisasi"><span><svg class="ic"><use href="#i-cross"/></svg></span><div><b>PMR</b><small>Organisasi</small></div></div>
+      <div class="ek" data-c="organisasi"><span><svg class="ic"><use href="#i-flag"/></svg></span><div><b>Paskibra</b><small>Organisasi</small></div></div>
+      <div class="ek" data-c="organisasi"><span><svg class="ic"><use href="#i-tent"/></svg></span><div><b>Pramuka</b><small>Organisasi</small></div></div>
+      <div class="ek" data-c="organisasi"><span><svg class="ic"><use href="#i-globe"/></svg></span><div><b>Pioneer of English Community</b><small>Organisasi</small></div></div>
+      <div class="ek" data-c="organisasi"><span><svg class="ic"><use href="#i-news"/></svg></span><div><b>Jurnalistik</b><small>Organisasi</small></div></div>
+      <div class="ek" data-c="organisasi"><span><svg class="ic"><use href="#i-pen"/></svg></span><div><b>Redaktur Mading</b><small>Organisasi</small></div></div>
+      <div class="ek" data-c="terampil"><span><svg class="ic"><use href="#i-palette"/></svg></span><div><b>Desain Grafis</b><small>Keterampilan</small></div></div>
+      <div class="ek" data-c="terampil"><span><svg class="ic"><use href="#i-chef"/></svg></span><div><b>Tata Boga</b><small>Keterampilan</small></div></div>
+      <div class="ek" data-c="terampil"><span><svg class="ic"><use href="#i-needle"/></svg></span><div><b>Tata Busana</b><small>Keterampilan</small></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Prestasi -->
+<section class="section prestasi" id="prestasi">
+  <div class="container prestasi-grid">
+    <div class="reveal">
+      <span class="eyebrow">Prestasi</span>
+      <h2>Bangga dengan setiap langkah siswa kami.</h2>
+      <p class="muted">Tahun ajaran 2025/2026, siswa SMA Wachid Hasyim 2 berprestasi dari tingkat kecamatan, kabupaten, provinsi, nasional hingga internasional: KTI, konten video, drama musikal, PMR, duta sejarah, sepak bola, bulu tangkis, pencak silat dan lainnya.</p>
+      <div class="medal-row">
+        <div><b>256</b><span>Siswa berprestasi</span></div>
+        <div><b>259</b><span>Lolos PTN</span></div>
+        <div><b>21</b><span>PTN tujuan</span></div>
+      </div>
+    </div>
+    <div class="prestasi-list">
+      <div class="pr reveal"><div class="lvl nas">Nasional</div><div><b>Anggota Parlemen Remaja DPR RI 2026</b><small>Thariqh Ramadhani, XII-F1 · lolos dari 11.948 pendaftar</small></div></div>
+      <div class="pr reveal d1"><div class="lvl nas">PTN</div><div><b>68 siswa lolos SNBP 2026</b><small>Ditambah 14 siswa diterima di Poltekkes Kemenkes Surabaya</small></div></div>
+      <div class="pr reveal d2"><div class="lvl prov">Provinsi</div><div><b>Jumbara PMR X Provinsi Jawa Timur</b><small>Evania Annisa (XI-F7) dan Fatikha Carissa (XII-F1) mewakili Sidoarjo · 2025</small></div></div>
+      <div class="pr reveal d3"><div class="lvl kab">Sekolah</div><div><b>Award Prestasi Siswa Kelas XII</b><small>Diberikan pada Muwadda'ah Akbar 477 lulusan · Mei 2026</small></div></div>
+      <div class="pr reveal d3"><div class="lvl kab">Seni</div><div><b>Drama Monolog “Merdeka Sepanjang Masa”</b><small>Sekitar 100 siswa tampil di YPM Center Megare · 17 Agustus 2025</small></div></div>
+    </div>
+  </div>
+</section>
+
+<!-- Berita -->
+<section class="section berita" id="berita">
+  <div class="container">
+    <div class="section-head split reveal">
+      <div>
+        <span class="eyebrow">Berita & Artikel</span>
+        <h2>Kabar terbaru dari sekolah.</h2>
+      </div>
+      <a href="https://smawh2.sch.id/" class="link-more" target="_blank" rel="noopener">Lihat semua berita <svg class="ic"><use href="#i-arrow"/></svg></a>
+    </div>
+    <div class="berita-grid">
+      <a class="news big reveal" href="https://smawh2.sch.id/2026/10/membanggakan-thariqh-ramadhani-siswa-sma-wachid-hasyim-2taman-terpilih-sebagai-anggota-parlemen-remaja-dpr-ri-2026/" target="_blank" rel="noopener">
+        <div class="news-img"><img src="assets/foto/parlemen-remaja.jpg" alt="" style="object-position:50% 25%"><span class="tag">Prestasi</span></div>
+        <div class="news-body">
+          <time>12 Oktober 2026</time>
+          <h3>Thariqh Ramadhani Terpilih sebagai Anggota Parlemen Remaja DPR RI 2026</h3>
+          <p>Siswa kelas XII-F1 ini menjadi siswa pertama SMA Wachid Hasyim 2 yang lolos, setelah melewati seleksi CV, esai dan video kampanye, psikotes, serta wawancara.</p>
+        </div>
+      </a>
+      <a class="news reveal d1" href="https://smawh2.sch.id/2026/05/muwaddaah-akbar-kelas-xii-dan-award-prestasi-siswa/" target="_blank" rel="noopener">
+        <div class="news-img"><img src="assets/foto/muwaddaah.jpg" alt=""><span class="tag">Kelulusan</span></div>
+        <div class="news-body"><time>8 Mei 2026</time><h3>Muwadda'ah Akbar Kelas XII dan Award Prestasi Siswa</h3></div>
+      </a>
+      <a class="news reveal d2" href="https://smawh2.sch.id/2026/05/prosesi-siraman-warnai-rangkaian-kelulusan-kelas-xii/" target="_blank" rel="noopener">
+        <div class="news-img"><img src="assets/foto/siraman.jpg" alt=""><span class="tag">Kelulusan</span></div>
+        <div class="news-body"><time>4 Mei 2026</time><h3>Prosesi Siraman Warnai Rangkaian Kelulusan Kelas XII</h3></div>
+      </a>
+      <a class="news reveal d3" href="https://smawh2.sch.id/2026/01/sufi-2026-menjelajah-kampus-bersama-alumni-sma-wachid-hasyim-2-taman/" target="_blank" rel="noopener">
+        <div class="news-img"><img src="assets/foto/sufi.jpg" alt=""><span class="tag">Akademik</span></div>
+        <div class="news-body"><time>8 Januari 2026</time><h3>SUFI 2026: Menjelajah Kampus Bersama Alumni SMA Wachid Hasyim 2</h3></div>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Galeri -->
+<section class="section galeri" id="galeri">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow">Galeri & Fasilitas</span>
+      <h2>Gedung sendiri tiga lantai, lengkap untuk belajar dan berkarya.</h2>
+    </div>
+    <div class="gallery">
+      <figure class="g1 reveal"><img src="assets/foto/halaman-siswa.jpg" alt=""><figcaption>Halaman & Gedung Sekolah</figcaption></figure>
+      <figure class="g2 reveal d1"><img src="assets/foto/lab-komputer.jpg" alt=""><figcaption>Laboratorium Komputer</figcaption></figure>
+      <figure class="g3 reveal d2"><img src="assets/foto/aula.jpg" alt=""><figcaption>Aula Kegiatan Siswa</figcaption></figure>
+      <figure class="g4 reveal d1"><img src="assets/foto/tari.jpg" alt=""><figcaption>Pentas Seni Tari</figcaption></figure>
+      <figure class="g5 reveal d2"><img src="assets/foto/class-meet.jpg" alt=""><figcaption>Class Meet</figcaption></figure>
+    </div>
+    <div class="fasilitas">
+      <span>Lab Fisika</span><span>Lab Kimia</span><span>Lab Biologi</span><span>Lab Komputer</span><span>Lab Multimedia</span><span>Perpustakaan YPM</span><span>Masjid Sekolah</span><span>Graha Anugrah Gusti</span><span>Poliklinik YPM</span><span>Bus Sekolah</span><span>Green House</span><span>Lapangan Basket & Sepak Bola</span><span>Studio Musik</span><span>Ruang OSIS</span>
+    </div>
+  </div>
+</section>
+
+<!-- Kegiatan tahunan -->
+<section class="section testi">
+  <div class="container">
+    <div class="section-head center reveal">
+      <span class="eyebrow light">Kegiatan Selama Sekolah</span>
+      <h2>Tradisi yang dinanti setiap tahun.</h2>
+    </div>
+    <div class="testi-slider" id="testi">
+      <div class="testi-track">
+        <blockquote class="tq"><p>“Nyantri Sedino ala WH-2: qiyamul lail di malam Nuzulul Qur'an, lalu sholat Subuh berjamaah di halaman sekolah.”</p><footer><b>Bulan Ramadhan</b><span>Pondok Ramadhan dan Nyantri Sedino</span></footer></blockquote>
+        <blockquote class="tq"><p>“Peringatan Maulid Nabi dan Isra' Mi'raj digelar bersama SMK YPM 1 dan SMK YPM 2 dalam satu kompleks.”</p><footer><b>Hari Besar Islam</b><span>Karnaval Muharram, Maulid dan Isra' Mi'raj</span></footer></blockquote>
+        <blockquote class="tq"><p>“Class meet, outdoor learning dan Sekolah Hutan Wakaf mengajak siswa belajar dan bersaing sportif di luar kelas.”</p><footer><b>Sepanjang Tahun</b><span>Class Meet dan Out Door Learning</span></footer></blockquote>
+      </div>
+      <div class="testi-dots" id="testiDots"></div>
+    </div>
+  </div>
+</section>
+
+<!-- SPMB -->
+<section class="section spmb" id="spmb">
+  <div class="container spmb-box reveal">
+    <div class="spmb-text">
+      <span class="eyebrow">SPMB 2027/2028</span>
+      <h2>Bergabunglah bersama keluarga besar Wachid Hasyim 2.</h2>
+      <p>Pendaftaran bisa ditutup sewaktu-waktu apabila kuota terpenuhi. Biaya formulir Rp250.000, belum termasuk seragam.</p>
+      <ol class="steps">
+        <li><b>1</b><div><strong>Isi formulir</strong><small>Online atau datang ke kantor di Jl. Raya Ngelom 86 Taman</small></div></li>
+        <li><b>2</b><div><strong>Serahkan berkas</strong><small>Fotokopi ijazah atau Surat Keterangan Lulus, pas foto 3x4 empat lembar</small></div></li>
+        <li><b>3</b><div><strong>Penuhi syarat</strong><small>Lulus ujian sekolah, tidak bertato, tidak bertindik (khusus laki-laki)</small></div></li>
+      </ol>
+      <div class="beasiswa"><svg class="ic"><use href="#i-gift"/></svg><span>Beasiswa bagi yang berprestasi akademik, non-akademik atau hafal Al-Qur'an. Diterima di sekolah negeri, uang daftar ulang dikembalikan maksimal 3 hari setelah pengumuman.</span></div>
+    </div>
+    <form class="spmb-form" id="spmbForm">
+      <h3>Formulir Minat Pendaftaran</h3>
+      <label>Nama Lengkap<input type="text" required placeholder="Nama calon siswa"></label>
+      <label>Asal Sekolah (SMP/MTs)<input type="text" required placeholder="Contoh: SMP Negeri 1 Taman"></label>
+      <label>No. WhatsApp Orang Tua<input type="tel" required placeholder="08xx xxxx xxxx"></label>
+      <label>Gelombang<select><option>Gelombang I (1 Nov – 31 Des 2026)</option><option>Gelombang II (2 Jan – 31 Mar 2027)</option><option>Gelombang III (mulai 1 Apr 2027)</option></select></label>
+      <button type="submit" class="btn btn-gold btn-block">Kirim Pendaftaran</button>
+      <small class="form-note">Prototipe — data belum dikirim ke panitia.</small>
+    </form>
+  </div>
+</section>
+
+<!-- Kontak -->
+<section class="section kontak" id="kontak">
+  <div class="container kontak-grid">
+    <div class="reveal">
+      <span class="eyebrow">Hubungi Kami</span>
+      <h2>Kami siap membantu.</h2>
+      <div class="kontak-list">
+        <div><span><svg class="ic"><use href="#i-pin"/></svg></span><div><b>Alamat</b><small>Jl. Raya Ngelom No. 86, Ngelom, Kec. Taman, Kab. Sidoarjo, Jawa Timur 61257</small></div></div>
+        <div><span><svg class="ic"><use href="#i-phone"/></svg></span><div><b>Telepon Kantor</b><small><a href="tel:+62317881734">(031) 7881734</a></small></div></div>
+        <div><span><svg class="ic"><use href="#i-chat"/></svg></span><div><b>WhatsApp SPMB</b><small><a href="https://wa.me/6285646116373" target="_blank" rel="noopener">Pak Agung · 0856 4611 6373</a><br><a href="https://wa.me/6281331766331" target="_blank" rel="noopener">Pak Fauzi · 0813 3176 6331</a></small></div></div>
+        <div><span><svg class="ic"><use href="#i-mail"/></svg></span><div><b>Email</b><small><a href="mailto:Info@smawh2.sch.id">Info@smawh2.sch.id</a></small></div></div>
+      </div>
+      <div class="socials">
+        <a href="https://www.instagram.com/smawh2_official/" target="_blank" rel="noopener" aria-label="Instagram">IG</a><a href="https://www.youtube.com/@SMAWACHIDHASYIM2TAMAN" target="_blank" rel="noopener" aria-label="YouTube">YT</a><a href="https://www.tiktok.com/@smawh2_official" target="_blank" rel="noopener" aria-label="TikTok">TT</a><a href="https://www.facebook.com/smawh2official" target="_blank" rel="noopener" aria-label="Facebook">FB</a>
+      </div>
+    </div>
+    <div class="map reveal d1">
+      <iframe title="Peta lokasi" loading="lazy" referrerpolicy="no-referrer-when-downgrade" src="https://www.google.com/maps?q=SMA+Wachid+Hasyim+2+Taman,+Jl.+Raya+Ngelom+86,+Sidoarjo&output=embed"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container footer-grid">
+    <div>
+      <div class="brand light"><img src="assets/logo.png" alt=""><div><strong>SMA Wachid Hasyim 2</strong><small>Taman · Sidoarjo</small></div></div>
+      <p>Sekolah yang bernaung di bawah Yayasan Pendidikan dan Sosial Ma'arif Sepanjang sejak tahun 1964.</p>
+    </div>
+    <div><h4>Tautan</h4><a href="#profil">Profil</a><a href="#program">Program</a><a href="#prestasi">Prestasi</a><a href="#berita">Berita</a></div>
+    <div><h4>Layanan</h4><a href="#spmb">SPMB Online</a><a href="https://smawh2.sch.id/" target="_blank" rel="noopener">E-Library</a><a href="https://smawh2.sch.id/" target="_blank" rel="noopener">Pembuatan Surat</a><a href="#kontak">Kontak</a></div>
+    <div><h4>Jam Layanan</h4><p>Senin – Jumat<br>07.00 – 14.00 WIB</p><p>Sabtu<br>08.00 – 12.00 WIB</p></div>
+  </div>
+  <div class="container footer-bottom">
+    <span>© 2026 SMA Wachid Hasyim 2 Taman. Hak cipta dilindungi.</span>
+    <span>Foto: dokumentasi SMA Wachid Hasyim 2 Taman</span>
+  </div>
 </footer>
 
-<script src="protect.js"></script>
-<script type="module" src="assets/system.js"></script>
-<script type="module" src="assets/motion/motion.js"></script>
-<script type="module" src="assets/layout/layout.js"></script>
+<a href="#beranda" class="to-top" id="toTop" aria-label="Kembali ke atas"><svg class="ic"><use href="#i-up"/></svg></a>
+<a href="https://wa.me/6285646116373" class="wa-float" target="_blank" rel="noopener" aria-label="Hubungi panitia SPMB via WhatsApp"><svg class="ic"><use href="#i-chat"/></svg></a>
+<div class="toast" id="toast"></div>
+
+<script src="script.js"></script>
 </body>
 </html>
