@@ -2,7 +2,7 @@
   --navy:#0a2a6b; --blue:#1458c4; --sky:#3fa9f5; --gold:#f7c21b; --gold-d:#d9a400;
   --red:#c8202f; --ink:#0f1b33; --muted:#5b6782; --line:#e3e8f2; --bg:#f6f8fc; --white:#fff;
   --r:18px; --shadow:0 20px 50px -20px rgba(10,42,107,.35);
-  --serif:'Fraunces',Georgia,serif; --sans:'Plus Jakarta Sans',system-ui,sans-serif;
+  --serif:'Schibsted Grotesk','Helvetica Neue',Arial,sans-serif; --sans:'Hanken Grotesk','Helvetica Neue',Arial,sans-serif;
 }
 *{box-sizing:border-box;margin:0;padding:0}
 html{scroll-behavior:smooth;scroll-padding-top:84px}
@@ -357,3 +357,24 @@ h3{font-size:1.25rem;font-weight:700}
 .ek b{display:block}
 .quote-badge{z-index:3}
 .sambutan-photo .photo-frame{position:relative}
+
+/* ===== tipografi baru: Schibsted Grotesk (judul) + Hanken Grotesk (teks) ===== */
+body{font-size:16.5px;font-feature-settings:"ss01","cv11";text-rendering:optimizeLegibility}
+h1,h2,h3{letter-spacing:-.028em;line-height:1.08}
+.hero h1{font-weight:700;letter-spacing:-.045em;line-height:1}
+.hero h1 em{font-style:normal;font-weight:700}
+h2{font-weight:650;letter-spacing:-.035em}
+h3{font-weight:650;letter-spacing:-.015em}
+.brand strong{font-weight:700;letter-spacing:-.02em}
+.hc-head b,.signature b{font-weight:650;letter-spacing:-.02em}
+.stat b,.medal-row b,.since span{font-weight:700;letter-spacing:-.04em;font-variant-numeric:tabular-nums}
+.date b,.steps li>b,.misi i{font-variant-numeric:tabular-nums;font-weight:700}
+.eyebrow{letter-spacing:.14em;font-weight:700}
+.visi-box p,.tq p,.quote-badge{font-style:normal;font-weight:500;letter-spacing:-.015em}
+.tq p{line-height:1.4}
+.visi-box::after{font-family:Georgia,serif}
+.btn,.tab,.chip,.lvl,.tag{letter-spacing:-.005em}
+.sambutan-text p,.tab-panel>p,.pcard p,.news-body p{line-height:1.7}
+/* menu HP: benar-benar tersembunyi saat tertutup; top bar satu baris di HP */
+@media (max-width:1080px){.nav{visibility:hidden}.nav.open{visibility:visible}}
+@media (max-width:560px){.topbar-in{justify-content:center}.tb-left{display:none}}
